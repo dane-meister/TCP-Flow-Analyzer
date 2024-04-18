@@ -57,3 +57,7 @@ OR
 ### Review the Output
 The program will print the analysis results to the console. This includes the number of TCP flows initiated from the sender, details for each TCP flow such as the flow identification, transaction details, sender throughput, estimated congestion window sizes, and the number of retransmissions due to triple duplicate ACKs and timeouts.
 
+## Acknowledgments
+- [dpkt](https://dpkt.readthedocs.io/en/latest/)
+
+This project is a part of an academic assignment and is used for educational purposes only.
