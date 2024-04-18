@@ -1,5 +1,3 @@
-# Dane Meister, 114477020, Assignment 2
-
 ## High-Level Summary
 
 The analysis_pcap_tcp program is designed to analyze TCP traffic from a .pcap file to extract and calculate various metrics related to TCP flows initiated by a sender. The program uses the dpkt library to parse the pcap file and extract TCP flows based on the combination of source and destination IP addresses and ports. It identifies the beginning and end of TCP flows marked by SYN and FIN flags, respectively. For each identified flow, the program records the initial transactions, calculates sender throughput, and estimates the congestion window sizes. Additionally, it counts retransmissions due to triple duplicate ACKs and timeouts.
